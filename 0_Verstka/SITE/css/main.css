@@ -1,0 +1,91 @@
+/* Комментарий*/
+div{
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;  /* Отступ внутри блока внутри контейнера. 4 параметра по часовой стрелке начинаем слева*/   
+	margin: 0;  /* Отступ снаружи блока контейнер- контейнер*/  
+}
+header{
+	background-color: rgb(44,62,80);
+	height: 100px;
+}
+.container
+{
+	width: 920px;
+/*	border: 10px solid red;
+	height: 100px;*/
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 0px;
+	float: left;   /*Куда притягивается картинка*/
+	display: block; /*не растягиваем, отобразить в блоке*/
+
+}
+nav {
+	float: right;
+	margin-top:30px; 
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block; 
+
+}
+.menu li {
+	float: left;
+	display: block; /*не растягиваем, отобразить в блоке*/
+
+}
+.menu li a{
+	color: #fff;  /*сокращение белого*/
+	text-decoration: none; /*убираем подчеркивание ссылок*/
+	text-transform: uppercase; /*верхний регистр текста*/
+	margin: 40px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.mainPic {
+	display: block; /*не растягиваем, отобразить в блоке*/
+	/* border: 10px solid red; */
+	padding: 70px;
+	margin: 0 auto;
+}
+#start {
+	background-color: rgb(24,188,156);
+	padding-bottom: 50px;
+}
+.title h1 {
+	font-size: 48px,
+	text-transform:uppercase;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;;
+	margin: 0;
+}
+.title p {
+	font-size: 25 px;
+	text-align: center;
+	color: #fff;
+	margin-top:0px;
+}
+.title h2{
+	font-size: 45 px;
+	text-align: center;
+	color: #2c3e50;
+	font-weight: bold;
+	margin:0px;
+}
+.whiteStar{
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#start {
+	background-color: rbb(24,188,156);
+	padding-bottom: 50 px;
+}
